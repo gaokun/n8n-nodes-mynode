@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-mynode",
   "version": "0.1.0",
   "description": "",
   "keywords": [
@@ -10,10 +10,6 @@
   "author": {
     "name": "",
     "email": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
   },
   "engines": {
     "node": ">=18.10",
