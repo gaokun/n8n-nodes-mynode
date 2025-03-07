@@ -1,2 +1,6 @@
-.DS_Store
-*.tsbuildinfo
+*
+!dist/
+!package.json
+!LICENSE.md
+!README.md
+!index.js
