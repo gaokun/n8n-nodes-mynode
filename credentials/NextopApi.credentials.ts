@@ -37,12 +37,19 @@ export class NextopApi implements ICredentialType {
 			headers: {
 				token: '={{$credentials.token}}',
 			},
+			body: {
+				body_token: '={{$credentials.token}}',
+			},
+			qs: {
+				query_token: '={{$credentials.token}}',
+			}
 		},
 	};
 
 	// The block below tells how this credential can be tested
 	test: ICredentialTestRequest = {
 		request: {
+			method: 'POST',
 			baseURL: '={{$credentials?.domain}}',
 			url: '',
 		},
